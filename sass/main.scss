@@ -1,0 +1,36 @@
+*{
+    font-family: "Dosis";
+}
+a {
+    text-decoration: none !important;
+    color: #4D6873;
+}
+body {
+    background-color: #F6F6F6;
+}
+h1 {
+	color: #4D6873;
+	font-size: 600% !important;
+	margin-top: 20%;
+}
+h2 {
+	color: #4D6873;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+hr.style2 {
+	border-top: 4px double #4D6873 !important;
+	margin-bottom: 30px !important;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+
+@import "sections/_header";
+@import "sections/_sobremi";
+@import "sections/_proyectos";
+@import "sections/_contacto";
+@import "sections/_footer";
+
+/*PAGES*/
+@import "pages/_desarrollo-frontend";
+@import "pages/_diseno-industrial";

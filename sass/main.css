@@ -1,0 +1,280 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+* {
+  font-family: "Dosis"; }
+
+a {
+  text-decoration: none !important;
+  color: #4D6873; }
+
+body {
+  background-color: #F6F6F6; }
+
+h1 {
+  color: #4D6873;
+  font-size: 600% !important;
+  margin-top: 20%; }
+
+h2 {
+  color: #4D6873;
+  margin-top: 100px;
+  margin-bottom: 30px; }
+
+hr.style2 {
+  border-top: 4px double #4D6873 !important;
+  margin-bottom: 30px !important; }
+
+/*MENU*/
+.fa-bars {
+  color: #4D6873 !important; }
+
+.fa-bars:hover {
+  color: #F2F0CE !important; }
+
+/*LOGO*/
+.logo {
+  width: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px !important; }
+
+/*DISE├æADORA INDUSTRIAL - DESARROLLADORA FRONT-END*/
+.margin-bot {
+  margin-bottom: 280px; }
+
+#picture_profile {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+  margin-top: 50px; }
+
+.box {
+  background-color: rgba(216, 183, 142, 0.2);
+  padding: 20px 30px 20px 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  font-size: 20px; }
+
+/*HABILIDADES*/
+#background_1 {
+  background-image: url(../images/back.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -1;
+  margin-top: 200px;
+  margin-bottom: 50px; }
+
+/*Dise├▒o de Productos*/
+/*Modelado 3D*/
+.box-skills {
+  background-color: #4D6873;
+  width: 160px;
+  height: 160px;
+  z-index: 1;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  padding-top: 40px; }
+
+.icons {
+  width: 60px;
+  height: 70px; }
+
+#icon-ux {
+  width: 60px;
+  height: 110px; }
+
+#icon-dev {
+  width: 60px;
+  height: 40px; }
+
+#icon-3d {
+  width: 60px;
+  height: 60px; }
+
+/*UX - UI */
+.box-ux {
+  background-color: #4D6873;
+  width: 160px;
+  height: 160px;
+  z-index: 1;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  padding-top: 20px; }
+
+/*Desarrollo Front-End*/
+.box-dev {
+  background-color: #4D6873;
+  width: 160px;
+  height: 160px;
+  z-index: 1;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  padding-top: 55px; }
+
+/*CV*/
+.box-cv {
+  background-color: rgba(77, 104, 115, 0.6) !important;
+  width: 160px;
+  height: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px; }
+
+.box-cv p {
+  color: white;
+  font-size: 35px; }
+
+.box-cv:hover {
+  background-color: rgba(216, 183, 142, 0.6) !important; }
+
+.box-cv p:hover {
+  color: #4D6873;
+  font-size: 35px; }
+
+/*DISE├æO INDUSTRIAL*/
+.images-projects {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px; }
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #4D6873;
+  margin-top: 30px; }
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px; }
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.hovereffect:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.hovereffect h3 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent; }
+
+.hovereffect h3:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0); }
+
+.hovereffect:hover h3:after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  font-size: 18px; }
+
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.margin-top50 {
+  margin-top: 50px; }
+
+.logo-contact {
+  width: 75px;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.fa-linkedin-square {
+  font-size: 40px;
+  color: #4D6873;
+  margin: 30px 10px 50px 10px; }
+
+.fa-linkedin-square:hover {
+  color: #D9B88F; }
+
+.fa-instagram {
+  font-size: 40px;
+  color: #4D6873;
+  margin: 30px 10px 50px 10px; }
+
+.fa-instagram:hover {
+  color: #D9B88F; }
+
+.fa-pinterest {
+  font-size: 40px;
+  color: #4D6873;
+  margin: 30px 10px 50px 10px; }
+
+.fa-pinterest:hover {
+  color: #D9B88F; }
+
+.fa-github-alt {
+  font-size: 40px;
+  color: #4D6873;
+  margin: 30px 10px 50px 10px; }
+
+.fa-github-alt:hover {
+  color: #D9B88F; }
+
+#footer {
+  background-color: #F2F0CE;
+  width: 100%;
+  height: 100px; }
+
+/*PAGES*/
+/*BOTONES VER MAS ---- MODAL*/
+.btn-info {
+  background-color: transparent !important;
+  border: none !important; }
+
+/*TAMA├æO IMAGENES*/
+#Mach5 {
+  width: 100%;
+  height: 100%; }
+
+/*# sourceMappingURL=main.css.map */

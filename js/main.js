@@ -29,6 +29,22 @@ $('#btnAbrirModal6').click(function(){
 	$('#myModal6').modal('show')
 });
 
+// C + L
+$('#btnAbrirModal7').click(function(){
+	$('#myModal7').modal('show')
+});
+
+// Juguetes
+$('#btnAbrirModal8').click(function(){
+	$('#myModal8').modal('show')
+});
+
+// Co-Diseño
+$('#btnAbrirModal9').click(function(){
+	$('#myModal9').modal('show')
+});
+
+
 
 ///////////////    MENU TOGGLE /////////////////////
 
